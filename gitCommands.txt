@@ -1,0 +1,211 @@
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp
+$ touch index.html
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp
+$ touch app.js
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/GitTestApp/.git/
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git config --global user.name 'Hemelton_smith'
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git config --global user.email 'hemeltonsmith@gmail.com'
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git add index.html
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git add &.html
+Nothing specified, nothing added.
+[1] 1173
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+bash: .html: command not found
+[1]+  Done                    git add
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git add *.html
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git add .
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+        new file:   index.html
+
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git add .
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+        new file:   index.html
+
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git comit
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git commit
+hint: Waiting for your editor to close the file...       0 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+ 524323 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+ 791001 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+ 959685 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+1381626 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+1604241 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+1862259 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+2474917 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+2768924 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+3033091 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+3166616 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+3684764 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+4008050 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+4396535 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+4653007 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+5008525 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+5296197 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+5529925 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+5734409 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+6049100 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+6474409 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+6803119 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+7039674 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+7199669 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+7394335 [sig] bash 1218! sigpacket::process: Suppressing signal 18 to win32 process (pid 20872)
+[master (root-commit) 1a9244b]  Initial commit
+ 2 files changed, 12 insertions(+)
+ create mode 100644 app.js
+ create mode 100644 index.html
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git add .
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ git commit -m 'changed app.js'
+[master 9b132c1] changed app.js
+ 1 file changed, 1 insertion(+)
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$ ^C
+
+Hemelton smith@LAPTOP-1KMML365 MINGW64 /c/xampp/htdocs/GitTestApp (master)
+$
